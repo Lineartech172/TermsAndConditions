@@ -1,0 +1,43 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FusionLab Terms and Conditions</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; padding: 20px; }
+        .container { max-width: 600px; margin: auto; padding: 20px; border: 1px solid #ccc; border-radius: 10px; }
+        button { padding: 10px 20px; margin: 10px; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>FusionLab - Terms and Conditions</h2>
+        <p>By using FusionLab, you agree to the following terms:</p>
+        <ul>
+            <li>FusionLab is intended solely for academic purposes and must be used with integrity. <em>(Source: Academic Integrity Guidelines, Educational Institutions)</em></li>
+            <li>Users must not engage in plagiarism, cheating, or academic dishonesty, as such actions violate educational standards. <em>(Source: The Importance of Academic Integrity, National Education Association)</em></li>
+            <li>All study materials and resources provided are for personal use only and cannot be redistributed. <em>(Source: Copyright Laws, U.S. Copyright Office)</em></li>
+            <li>Unauthorized reproduction or distribution of FusionLab content is strictly prohibited to protect intellectual property. <em>(Source: Intellectual Property Rights, World Intellectual Property Organization)</em></li>
+            <li>Your data is stored securely following industry best practices, but FusionLab is not responsible for data loss. <em>(Source: Data Security Guidelines, National Institute of Standards and Technology)</em></li>
+            <li>Violation of these terms may result in account suspension or termination to maintain a safe and respectful environment. <em>(Source: User Agreement Policy, Online Platforms)</em></li>
+        </ul>
+        <h3>Copyright Notice</h3>
+        <p>&copy; 2025 FusionLab. All rights reserved. No part of this application may be copied, reproduced, or distributed without written permission. <em>(Source: U.S. Copyright Law)</em></p>
+        <p>Do you accept these terms?</p>
+        <button onclick="acceptTerms()">Accept</button>
+        <button onclick="declineTerms()">Decline</button>
+    </div>
+
+    <script>
+        function acceptTerms() {
+            alert("Thank you for accepting the terms!");
+            window.location.href = "home.html"; // Redirect to main app page
+        }
+
+        function declineTerms() {
+            alert("You must accept the terms to use FusionLab.");
+            window.location.href = "https://www.google.com"; // Redirect elsewhere if declined
+        }
+    </script>
+</body>
+</html>
